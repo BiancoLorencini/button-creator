@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+}
+
+.button-creator {
+  display: grid;
+  gap: 30px;
+  padding: 30px;
+  grid-auto-columns: 200px 1fr;
+  box-sizing: border-box;
+}
+
+.resultado {
+  grid-column: 2;
+}
+
+#controles {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  background: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.css {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.css span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
